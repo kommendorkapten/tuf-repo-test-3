@@ -1,9 +1,14 @@
 {
- "signatures": [],
+ "signatures": [
+  {
+   "keyid": "d7d2d47a3f644fc3a685bac7b39c81ed9f9cee48ff861b44fbd86b91e34e7829",
+   "sig": "304502207f1a1544d88e6ae795e9c874a0b54864a11854819e214c8f1c0449578ba6f1e8022100eff463b0665da759acdafc7f53254f49706a002da55e48f77dba02126ddc90c4"
+  }
+ ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2024-07-26T10:47:20Z",
+  "expires": "2024-07-26T10:50:53Z",
   "keys": {
    "abcd": {
     "keytype": "sigstore-oidc",
@@ -13,6 +18,14 @@
     },
     "scheme": "Fulcio",
     "x-tuf-on-ci-online-uri": "sigstore:"
+   },
+   "d7d2d47a3f644fc3a685bac7b39c81ed9f9cee48ff861b44fbd86b91e34e7829": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE++Wv+DcLRk+mfkmlpCwl1GUi9EMh\npBUTz8K0fH7bE4mQuViGSyWA/eyMc0HvzZi6Xr0diHw0/lUPBvok214YQw==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-tuf-on-ci-keyowner": "@-fakeuser-1"
    },
    "efgh": {
     "keytype": "sigstore-oidc",
@@ -26,7 +39,9 @@
   },
   "roles": {
    "root": {
-    "keyids": [],
+    "keyids": [
+     "d7d2d47a3f644fc3a685bac7b39c81ed9f9cee48ff861b44fbd86b91e34e7829"
+    ],
     "threshold": 1
    },
    "snapshot": {
@@ -39,7 +54,9 @@
     "x-tuf-on-ci-signing-period": 60
    },
    "targets": {
-    "keyids": [],
+    "keyids": [
+     "d7d2d47a3f644fc3a685bac7b39c81ed9f9cee48ff861b44fbd86b91e34e7829"
+    ],
     "threshold": 1
    },
    "timestamp": {
