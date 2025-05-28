@@ -14,7 +14,8 @@
     "keytype": "sigstore-oidc",
     "keyval": {
      "identity": "https://github.com/kommendorkapten/tuf-repo-test-3/.github/workflows/online-sign.yml@refs/heads/main",
-     "issuer": "https://token.actions.githubusercontent.com"
+     "issuer": "https://token.actions.githubusercontent.com",
+     "public": ""
     },
     "scheme": "Fulcio",
     "x-tuf-on-ci-online-uri": "sigstore:"
