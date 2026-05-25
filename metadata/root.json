@@ -73,4 +73,5 @@
   "x-tuf-on-ci-expiry-period": 364,
   "x-tuf-on-ci-signing-period": 59
  }
+
 }
